@@ -48,6 +48,15 @@ function desencriptar(stringDesencriptada){
     return stringDesencriptada
 }
 
+function btnCopiar (){
+    portapapeles()
+}
+
+function portapapeles(){
+    navigator.clipboard.writeText(mensaje.value);
+    alert ('se ha copiado el texto');
+}
+
 
 
 
