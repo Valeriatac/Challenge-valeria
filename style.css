@@ -1,0 +1,109 @@
+.Encriptador {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20%;
+}
+
+*{
+    background: #ffC2D1;
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-size: 32px;
+    font-style: normal;
+}
+.logo {
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 2%;
+
+}
+
+main{
+   display: flex; 
+   margin-bottom: 50px;
+   margin-left: 80px;
+}
+
+.text-area{
+    border: none;
+    color: rgb(18, 76, 127);
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder { color: #050110; }
+.text-area:focus{
+    outline: none;
+}
+
+.mensaje{
+    background: #ffd166;
+    background-image: url("/img/alien-libro.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border: none;
+    border-radius: 24px;
+    color: #118ab2;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+    width: fit-content;
+}
+.mensaje:focus {
+    outline: none;
+}
+
+.botones {
+    display: flex;
+    margin-top 18px;
+    width: 328px;   
+}
+
+.btn-desencriptar{
+    background-color: #06d6a0;
+    border: 1px solid #06d6a0;
+    border-radius: 24px;
+    color: beige;
+    font-family:  "New Amsterdam", sans-serif;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+
+.btn-encriptar{
+    background-color: #118ab2;
+    border: 1px solid #118ab2;
+    border-radius: 24px;
+    color: beige;
+    font-family: "New Amsterdam", sans-serif;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+    
+.copiar{
+    background-color: #118ab2;
+    border: 1px solid #118ab2;
+    border-radius: 24px;
+    color: beige;
+    font-family: "New Amsterdam", sans-serif;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+    width: 328px;
+}
+
+.informacion {
+    color: #07201a;
+    font-size: 18px;
+    font-family: "Bungee Tint", sans-serif;
+
+}
