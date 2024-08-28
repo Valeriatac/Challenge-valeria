@@ -10,7 +10,7 @@ const mensaje = document.querySelector(".mensaje");
 
 
 function btnEncriptar(){
-    const textoEncriptado = encriptar(textArea.value);
+    const textoEncriptado = desencriptar(textArea.value);
     mensaje.value = textoEncriptado;
     textArea.value = "";
     mensaje.style.backgroundImage = "none"
